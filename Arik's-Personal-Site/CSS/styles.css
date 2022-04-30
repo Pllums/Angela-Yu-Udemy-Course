@@ -1,7 +1,14 @@
 img.arik {
-  border-radius: 75px;
+	border-radius: 75px;
 }
 
 p.contact {
-  font-size: 10px;
+	font-size: 10px;
+}
+
+td.stars {
+	font-size: 14px;
+}
+input.reset {
+	size: 8pt;
 }

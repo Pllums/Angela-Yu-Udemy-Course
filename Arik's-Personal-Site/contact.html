@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Me</title>
-  </head>
-  <img
-    src="https://i.etsystatic.com/5895745/r/il/c96ad3/359044942/il_fullxfull.359044942.jpg"
-    alt="an artistic drawing of a rotary dial phone"
-  />
-  <button><a href="index.html">Home</a></button>
-  <button><a href="hobbies.html">Hobbies</a></button>
-  <body>
-    <h1>My Contact Information</h1>
-    <ul>
-      <li>Email : arikabdullah1122@gmail.com</li>
-      <li>Cell Phone: 231-288-8016</li>
-      <li><a href="https://discord.gg/z2Q3HSV" target="_blank">Discord</a></li>
-    </ul>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Me</title>
+	</head>
+	<img
+		src="https://i.etsystatic.com/5895745/r/il/c96ad3/359044942/il_fullxfull.359044942.jpg"
+		alt="an artistic drawing of a rotary dial phone"
+	/>
+	<button><a href="index.html">Home</a></button>
+	<button><a href="hobbies.html">Hobbies</a></button>
+	<body>
+		<h1>My Contact Information</h1>
+		<ul>
+			<li>Email : arikabdullah1122@gmail.com</li>
+			<li>Cell Phone: 231-288-8016</li>
+			<li><a href="https://discord.gg/z2Q3HSV" target="_blank">Discord</a></li>
+		</ul>
+		<hr />
+		<form
+			action="mailto:arikabdullah1122@gmail.com"
+			method="post"
+			enctype="text/plain"
+		>
+			<label for="name">Please enter your name</label>
+			<input type="text" name="yourName" value="" /><br />
+			<label for="email">Please enter your email</label>
+			<input type="email" name="yourEmail" /><br />
+			<label for="message">Write your message</label><br />
+			<textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+			<input type="submit" /><br />
+			<input class="reset" type="reset" />
+		</form>
+	</body>
 </html>
